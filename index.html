@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billy Design</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="text-textGrey bg-bgBlackCrl">
-    <header class="py-4 md:px-8" style="background-color: #252728;">
-        <div class="flex justify-around md:justify-between w-auto max-w-4xl mx-auto">
-            <p style="color: #4d4f53;"><span class="font-bold" style="color: #c2c5ca">Billy</span> Design</p>
-            <p  class="font-bold" style="color: #c2c5ca">Links úteis</p>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Billy Design</title>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="./public/style.css">
+    </head>
+    <body class="text-grayText bg-bgColor">
+        <header class="py-4 md:px-8 ">
+            <div
+                class="flex justify-around md:justify-between w-auto max-w-4xl mx-auto text-sm">
+                <p><span class="font-bold text-lightGrayText">Billy</span>
+                    Design</p>
+                <p class="font-bold text-lightGrayText" id="typewriter"></p>
+            </div>
+        </header>
 
-    <main class="w-auto max-w-4xl mx-auto px-4 my-7">
-        <img src="assets/EU.png" alt="">
-        <h1 class="text-5xl">Olá, seja<br><span class="font-bold">bem vindo(a)</span></h1>
-        <div class="flex gap-7 flex-col">
-            <div class="h-20 flex items-center justify-center purple-linear-gradient">
-                <p class="uppercase text-base font-extrabold text-gray-50">mentoria 2.0</p>
+        <main class="w-auto max-w-4xl mx-auto mb-7">
+            <div class="relative">
+                <img src="assets/EU.png" class="mix-blend-">
+                <div
+                    class="absolute -bottom-8 left-2/4 -translate-x-1/2 w-11/12">
+                    <h1 class="text-4xl min-[414px]:text-5xl px-10 text-center">Olá,
+                        seja<br><span class="font-bold text-lightGrayText">bem
+                            vindo(a)</span></h1>
+                    <div class="mx-auto mt-2 text-center">
+                        <span class="material-symbols-outlined text-gray-100">
+                            expand_more
+                        </span>
+                    </div>
+                </div>
             </div>
-            <div class="h-20 flex items-center justify-center" style="background-color: #2a2b2c;">
-                <p class="uppercase text-base" style="color: #4d4f53;">solicitar orçamento</p>
+            <div class="flex gap-7 flex-col px-10 mt-10 max-w-sm mx-auto">
+                <div
+                    class="h-20 flex items-center justify-center purple-linear-gradient">
+                    <p class="uppercase text-base font-extrabold text-gray-50">mentoria
+                        2.0</p>
+                </div>
+                <div
+                    class="h-20 flex items-center justify-center bg-bgButtonColor">
+                    <p class="uppercase text-base">solicitar
+                        orçamento</p>
+                </div>
+                <div
+                    class="h-20 flex items-center justify-center bg-bgButtonColor">
+                    <p class="uppercase text-base">meu
+                        portfólio</p>
+                </div>
+                <div
+                    class="h-20 flex items-center justify-center bg-bgButtonColor">
+                    <p class="uppercase text-base">telegram</p>
+                </div>
             </div>
-            <div class="h-20 flex items-center justify-center" style="background-color: #2a2b2c;">
-                <p class="uppercase text-base" style="color: #4d4f53;">meu portfólio</p>
-            </div>
-            <div class="h-20 flex items-center justify-center" style="background-color: #2a2b2c;">
-                <p class="uppercase text-base" style="color: #4d4f53;">telegram</p>
-            </div>
-        </div>
-    </main>
+        </main>
 
-    <footer class="">
-        <p class="text-center"  style="color: #4d4f53;">@billydesignn - todos os direitos reservados</p>
-    </footer>
-</body>
+        <footer class="mb-7 px-10 text-sm">
+            <p class="text-center">@billydesignn - todos
+                os direitos reservados</p>
+        </footer>
+        <script src="public/main.js"></script>
+    </body>
 </html>
