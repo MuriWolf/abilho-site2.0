@@ -4,12 +4,17 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "build:dev": "webpack --config ./webpack/development.config.babel.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.3.2",
     "typewriter-effect": "^2.20.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   }
 }

@@ -1,13 +1,21 @@
-import Typewriter from 'typewriter-effect/dist/core';
-var typewriterEl = document.getElementById('typewriter');
-var typewriter =  new Typewriter(typewriterEl, {
-    strings: ['Hello', 'World'],
-    autoStart: true,
-    loop: true,
-    delay: 75,
-  });
+var element = document.getElementById('headerText');
+const typewriter = new Typewriter(element, {
+  autoStart: true,
+  loop: true,
+  delay: 75,
+});
 
-  typewriter
-  .typeString('A simple yet powerful native javascript')
-  .pauseFor(300)
+typewriter
+  .pauseFor(1000)
+  .typeString('Links úteis')
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString('Seu negócio mais profissional')
+  .pauseFor(2000)
+  .deleteAll()
+  .typeString('Criativos que vendem')
+  .pauseFor(2000)
   .start();
+
+
+  
