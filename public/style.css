@@ -624,6 +624,10 @@ video {
   border-width: 2px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-grayText {
   --tw-border-opacity: 1;
   border-color: rgb(77 79 83 / var(--tw-border-opacity));
@@ -652,6 +656,11 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
