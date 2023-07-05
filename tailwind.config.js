@@ -9,6 +9,9 @@ module.exports = {
             "grayText": "#8F92A1",
             "lightGrayText": "#c2c5ca",
             "bgButtonColor": "#2a2b2c"
+        },
+        fontFamily: {
+          "neueMachine": ["neue machine", "Roboto"]
         }
       },
     },

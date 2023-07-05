@@ -18,4 +18,6 @@ typewriter
   .start();
 
 
-  
+function newFunction() {
+  console.log("Anything")
+}
