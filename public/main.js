@@ -5,7 +5,7 @@ const typewriter = new Typewriter(element, {
   delay: 75,
 });
 
-typewriter
+typewriter  
   .pauseFor(1000)
   .typeString('Links úteis')
   .pauseFor(2000)
@@ -16,7 +16,6 @@ typewriter
   .typeString('Criativos que vendem')
   .pauseFor(2000)
   .start();
-
 
 function newFunction() {
   console.log("Anything")
