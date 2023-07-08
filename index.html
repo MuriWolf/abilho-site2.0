@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="text-grayText bg-bgColor">
-        <header class="py-5 md:px-8 bg-bgButtonColor border-grayText border-b-2 ">
+        <header class="py-5 md:px-8 bg-bgButtonColor border-grayText border-b-2 fixed w-full z-10 top-0">
             <div
                 class="max-w-4xl mx-auto px-7 w-full text-sm relative flex items-center justify-end">
                 <p class="left-7 absolute"><span class="font-bold text-lightGrayText">Billy</span>
@@ -21,7 +21,7 @@
             </div>
         </header>
 
-        <main class="mb-7">
+        <main class="mb-7 mt-14">
             <section class="relative md:max-h-[600px] max-w-[1140px] mx-auto md:flex items-center justify-center">
                 <img class="hidden md:block absolute -top-5 right-0 w-4/6 " src="assets/images/LUZ.png" alt="">
                 <div class="md:w-7/12 lg:w-8/12 flex relative">
@@ -40,8 +40,8 @@
                             expand_more
                         </span>
                     </div>
-                    <div class="hidden gap-1 bg-bgButtonColor md:inline-flex items-center p-3 text-grayText px-5 mt-3">
-                        <p class="inline-block">Link úteis</p>
+                    <div class="hidden gap-1 bg-bgButtonColor md:inline-flex items-center p-3 text-grayText px-5 ml-[3px] mt-3 hover:bg-grayText hover:text-bgButtonColor hover:-translate-y-1 shadow-md transition-all ease-linear">
+                        <p class="inline-block ">Links úteis</p>
                         <span class="material-symbols-outlined hidden md:inline">
                             expand_more
                         </span>
@@ -51,7 +51,7 @@
             <hr class="hidden md:block border-bgButtonColor">
             <section class="w-auto flex gap-7 flex-col px-10 mt-12 max-w-sm md:max-w-md mx-auto text-base md:text-xl">
                 <a
-                    class="h-20 relative md:h-24 flex items-center justify-center bg-gradient-to-br from-btnPurple hover:from-btnPink to-btnPink hover:to-btnPurple hover:via-btnPink transition-all duration-200 hover:scale-105 cursor-pointer" href="https://contate.me/billydesign" >
+                    class="h-20 relative md:h-24 flex items-center justify-center bg-gradient-to-br from-btnPurple hover:from-btnPink to-btnPink hover:to-btnPurple hover:via-btnPink transition-all duration-200 hover:scale-105 cursor-pointer" style="box-shadow: 0px 0px 14px #d00dd6;" href="https://contate.me/billydesign" >
                     <p class="uppercase font-extrabold text-gray-50">mentoria
                         2.0</p>
                 </a>
