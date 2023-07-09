@@ -17,6 +17,11 @@ body {
     background-color: #151516;
 }
 
+html *::selection {
+    background-color: #fff;
+    color: #000;
+}
+
 .purple-pink-linear-gradient {
     background: linear-gradient(90deg, #7316c4, #d00dd6);
     box-shadow: 0px 0px 12px #7316c4;
