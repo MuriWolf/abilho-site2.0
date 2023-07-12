@@ -742,7 +742,7 @@ video {
 
 .bg-bgColor {
   --tw-bg-opacity: 1;
-  background-color: rgb(16 16 16 / var(--tw-bg-opacity));
+  background-color: rgb(14 14 14 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br {
@@ -843,12 +843,28 @@ video {
   color: rgb(194 197 202 / var(--tw-text-opacity));
 }
 
+.opacity-40 {
+  opacity: 0.4;
+}
+
 .opacity-30 {
   opacity: 0.3;
 }
 
-.opacity-40 {
-  opacity: 0.4;
+.opacity-\[\] {
+  opacity: ;
+}
+
+.opacity-\[35\] {
+  opacity: 35;
+}
+
+.opacity-\[0\.35\] {
+  opacity: 0.35;
+}
+
+.opacity-\[0\.33\] {
+  opacity: 0.33;
 }
 
 .shadow-md {

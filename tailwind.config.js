@@ -5,7 +5,7 @@ module.exports = {
         colors: {
             "btnPurple": "#7316c4",
             "btnPink": "#d00dd6",
-            "bgColor": "#101010",
+            "bgColor": "#0e0e0e",
             "grayText": "#8F92A1",
             "lightGrayText": "#c2c5ca",
             "bgButtonColor": "#2a2b2c"
