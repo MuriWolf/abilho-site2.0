@@ -829,8 +829,8 @@ video {
   color: rgb(194 197 202 / var(--tw-text-opacity));
 }
 
-.opacity-50 {
-  opacity: 0.5;
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .shadow-md {
