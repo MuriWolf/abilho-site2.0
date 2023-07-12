@@ -12,7 +12,16 @@ module.exports = {
         },
         fontFamily: {
           "neueMachine": ["neue machine", "Roboto"]
-        }
+        },
+        keyframes: {
+        moveBackground: {
+          'from': { 'background-position': '0% 50%' },
+          'to': { 'background-position': '100% 50%' }
+        },
+      },
+      animation: {
+        moveBackground: 'moveBackground 1.5s ease-in-out alternate infinite'
+      },
       },
     },
     plugins: [],
