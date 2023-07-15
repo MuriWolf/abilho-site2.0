@@ -843,23 +843,6 @@ video {
   color: rgb(194 197 202 / var(--tw-text-opacity));
 }
 
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
-
-.opacity-\[35\] {
-  opacity: 35;
-}
-
-.opacity-\[0\.35\] {
-  opacity: 0.35;
-}
-
 .opacity-\[0\.33\] {
   opacity: 0.33;
 }
@@ -890,7 +873,6 @@ video {
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #151516;
 }
 
 html *::-moz-selection {
