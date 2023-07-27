@@ -809,6 +809,14 @@ video {
   gap: 1.75rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -1043,9 +1051,21 @@ html *::selection {
   font-weight: 600;
 }
 
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
 .hover\:text-bgButtonColor:hover {
   --tw-text-opacity: 1;
   color: rgb(42 43 44 / var(--tw-text-opacity));
+}
+
+.focus\:font-bold:focus {
+  font-weight: 700;
+}
+
+.focus\:font-semibold:focus {
+  font-weight: 600;
 }
 
 @media not all and (min-width: 768px) {
